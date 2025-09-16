@@ -74,9 +74,3 @@ This will run the prototype prompt on a short sample, produce JSON output and sa
 
 ---
 
-## Submission & sharing
-1. Push the repo to GitHub (public).  
-2. Include this README and the `rubric.md`, `dataset_schema.json`, `analyze_student_code.py`.  
-3. Email the GitHub link to `pythonsupport@fossee.in` with subject `Screening Task 3 Submission - <Your Name>` and a short message summarizing your work.
-
-Good luck — this README is formatted to drop directly into your repository as the core submission document.
