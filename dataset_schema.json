@@ -1,0 +1,24 @@
+{
+  "description": "JSONL schema for student submissions and (optional) instructor annotations",
+  "fields": {
+    "id": "unique identifier for submission (string or int)",
+    "student_id": "anonymized student identifier (optional)",
+    "code": "string containing the student's python code",
+    "problem_id": "identifier for the exercise/problem",
+    "labels": "optional dict of instructor annotations, e.g. {\"misconception\": \"off-by-one\", \"correct\": false}",
+    "metadata": "optional dict for runtime info (language_version, timestamp, etc.)"
+  },
+  "example": {
+    "id": 1,
+    "student_id": "anon_123",
+    "code": "def foo(a):\\n    return sum(a)",
+    "problem_id": "sum_list_v1",
+    "labels": {
+      "misconception": null,
+      "correct": true
+    },
+    "metadata": {
+      "python_version": "3.9"
+    }
+  }
+}
