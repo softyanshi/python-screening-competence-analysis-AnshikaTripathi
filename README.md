@@ -1,6 +1,6 @@
 # Evaluating Open Source Models for Student Competence Analysis
 
-## Two-paragraph Research Plan
+## Two-paragraph Research Plan 
 
 **Paragraph 1 — Approach to identifying & evaluating models**  
 I will identify candidate open-source models by (1) prioritizing models explicitly trained or fine-tuned on source code, (2) preferring permissive licenses and active community support, and (3) selecting models available at multiple sizes so I can trade off latency vs performance. For each candidate (example candidates: StarCoder / StarCoder2 and Code Llama) I’ll run rapid sanity tests on held-out Python tasks (HumanEval-style samples and simple student submissions) to validate basic code understanding, then narrow to 1–2 models for deeper testing. I will prioritize models that support instruction-following and can produce structured outputs (e.g., JSON) so we can automatically parse their diagnoses and prompts.
@@ -10,7 +10,7 @@ For the chosen model I will build a three-stage pipeline: (A) static analysis + 
 
 ---
 
-## Reasoning (Required)
+## Reasoning
 
 ### What makes a model suitable for high-level competence analysis?
 1. **Code understanding & explanation ability** — trained on code + natural language so it can describe intent, patterns, and likely misconceptions.  
